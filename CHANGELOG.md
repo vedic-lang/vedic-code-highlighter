@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.1.2
+
+- Use the new violet Vedic wordmark as the extension icon.
+
 ## 2.1.1
 
 - Rename the extension to Vedic Code Highlighter. Existing installations keep the same Marketplace ID.
