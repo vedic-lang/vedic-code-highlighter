@@ -1,0 +1,73 @@
+{
+  "name": "vedic-syntax-highlighter",
+  "publisher": "vedic",
+  "displayName": "Vedic Code Highlighter",
+  "description": "Syntax highlighting, bracket matching, and line comments for Vedic source files.",
+  "version": "2.1.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/vedic-lang"
+  },
+  "icon": "images/logo.png",
+  "homepage": "https://github.com/vedic-lang/vedic-code-highlighter",
+  "keywords": [
+    "vedic",
+    "sanskrit",
+    "devanagari",
+    "syntax highlighting"
+  ],
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedic-lang/vedic-code-highlighter.git"
+  },
+  "author": {
+    "name": "ptprashanttripathi",
+    "email": "ptprashanttripathi@outlook.com",
+    "url": "https://twitter.com/PtPrashant09"
+  },
+  "preview": false,
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "galleryBanner": {
+    "color": "#ffdd00"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "pricing": "Free",
+  "contributes": {
+    "languages": [
+      {
+        "id": "vedic",
+        "aliases": [
+          "Vedic",
+          "vedic"
+        ],
+        "extensions": [
+          ".ved",
+          ".v",
+          ".veda",
+          ".vedic"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vedic",
+        "scopeName": "source.vedic",
+        "path": "./syntaxes/vedic.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.1.1"
+  }
+}
