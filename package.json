@@ -3,7 +3,7 @@
   "publisher": "vedic",
   "displayName": "Vedic Code Highlighter",
   "description": "Syntax highlighting, bracket matching, and line comments for Vedic source files.",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "engines": {
     "vscode": "^1.66.0"
   },
