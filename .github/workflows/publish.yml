@@ -36,6 +36,7 @@ jobs:
             exit 1
           fi
       - run: npm ci --ignore-scripts
+      - run: npm test
       - name: Build extension
         run: ./node_modules/.bin/vsce package --out "$RUNNER_TEMP/vedic-code-highlighter.vsix"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
