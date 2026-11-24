@@ -1,5 +1,9 @@
 # Change Log
 
+## 3.0.0
+
+- Highlight the Vedic 3 import keyword `आवाहन`. The previous spelling `अवहन` can be used as an identifier.
+
 ## 2.1.2
 
 - Use the new violet Vedic wordmark as the extension icon.
